@@ -1,0 +1,10 @@
+/* pages/About/styles.css */
+
+footer {
+  display: flex;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: #262626;
+}
