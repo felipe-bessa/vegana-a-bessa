@@ -1,0 +1,63 @@
+.socialMediaButtons {
+  display: flex;
+}
+
+.socialMediaButtons li {
+  position: relative;
+  display: block;
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  background: #171515;
+  line-height: 60px;
+  border-radius: 50%;
+  padding-top: 5px; /* Por minha conta pra alinhar na vertical */
+  margin: 0 15px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.socialMediaButtons li a {
+  color: #666;
+  border-radius: 50%;
+  padding: 15px 12px 5px;
+  transition: .5s;
+}
+
+.socialMediaButtons li a:hover {
+  filter: blur(1px);
+}
+
+.socialMediaButtons li:nth-child(1) a:hover {
+  color: #4267B2;
+  box-shadow: 0 0 15px 10px #456cba;
+}
+
+.socialMediaButtons li:nth-child(2) a:hover {
+  color: #1DA1F2;
+  box-shadow: 0 0 15px 10px #26a4f2;
+}
+
+.socialMediaButtons li:nth-child(3) a:hover {
+  color: #E1306C;
+  box-shadow: 0 0 15px 10px #e23670;
+}
+
+.socialMediaButtons li:nth-child(4) a:hover {
+  color: #f90022;
+  box-shadow: 0 0 15px 10px #f81a22;
+}
+
+.socialMediaButtons li:nth-child(5) a:hover {
+  color: #ff0000;
+  box-shadow: 0 0 15px 10px #ff1a1a;
+}
+
+.socialMediaButtons li a label {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
